@@ -1,6 +1,6 @@
 cask "wavelogmoat" do
-  version "0.1.0"
-  sha256 "77574b0fbaa697480541e552abb440f46aba9c9ab530f6f6a4a8bb79d2024c15"
+  version "0.2.0"
+  sha256 "4fb41ebb3954553a613dcf9babb7493b5048cdaada7c25d7b9b7dd9a33b7d441"
 
   url "https://github.com/dl5mn/WaveLogMoat/releases/download/v#{version}/WaveLogMoat-v#{version}.dmg"
   name "WaveLogMoat"
@@ -12,7 +12,7 @@ cask "wavelogmoat" do
   app "WaveLogMoat.app"
 
   zap trash: [
-    "~/Library/Preferences/com.dl5mn.WaveLogMoat.plist",
-    "~/Library/Caches/com.dl5mn.WaveLogMoat",
+    "~/Library/Preferences/de.dl5mn.WaveLogMoat.plist",
+    "~/Library/Caches/de.dl5mn.WaveLogMoat",
   ]
 end
