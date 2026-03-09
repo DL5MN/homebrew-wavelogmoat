@@ -1,6 +1,6 @@
 cask "wavelogmoat" do
-  version "0.3.2"
-  sha256 "5ca311dfcee257c3c3e61187afe03244797af38f0adf30163ada8209d42bf146"
+  version "0.3.3"
+  sha256 "ddd40c4ac509dc09e9ef357d870c8936c9ea4eae0d696b784392e0dc89c5dce9"
 
   url "https://github.com/dl5mn/WaveLogMoat/releases/download/v#{version}/WaveLogMoat-v#{version}.dmg"
   name "WaveLogMoat"
