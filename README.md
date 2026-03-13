@@ -1,23 +1,23 @@
-# homebrew-wavelogmoat
+# homebrew-wavelogmate
 
-Homebrew tap for [WaveLogMoat](https://github.com/dl5mn/WaveLogMoat) — a native macOS menu bar application for automatic QSO logging from WSJT-X to Wavelog.
+Homebrew tap for [WaveLogMate](https://github.com/dl5mn/WaveLogMate) — a native macOS menu bar application for automatic QSO logging from WSJT-X to Wavelog.
 
 ## Installation
 
 ```bash
-brew tap dl5mn/wavelogmoat
-brew install --cask wavelogmoat
+brew tap dl5mn/wavelogmate
+brew install --cask wavelogmate
 ```
 
 ## Updating
 
 ```bash
-brew upgrade --cask wavelogmoat
+brew upgrade --cask wavelogmate
 ```
 
 ## Uninstalling
 
 ```bash
-brew uninstall --cask wavelogmoat
-brew untap dl5mn/wavelogmoat
+brew uninstall --cask wavelogmate
+brew untap dl5mn/wavelogmate
 ```
